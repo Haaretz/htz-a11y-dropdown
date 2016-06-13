@@ -1,0 +1,12 @@
+ul {
+  padding: 0;
+  list-style: none;
+}
+.inline-list > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+[aria-hidden="true"] {
+  display: none;
+}
