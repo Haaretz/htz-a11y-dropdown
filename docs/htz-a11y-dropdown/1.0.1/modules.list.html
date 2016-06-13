@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>HTZ A11Y DROPDOWN Module: htz-a11y-dropdown</title>
+	<title>HTZ A11Y DROPDOWN Modules</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -40,7 +40,7 @@
 			<li class="dropdown">
 				<a href="events.list.html" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
 				<ul class="dropdown-menu ">
-					<li><a href="module-htz-a11y-dropdown.html#~event:hideEvent">htz-a11y-dropdown~event:hideEvent</a></li><li><a href="module-htz-a11y-dropdown.html#~event:showEvent">htz-a11y-dropdown~event:showEvent</a></li>
+					<li><a href="module-htz-a11y-dropdown.html#~event:dropdown:hide">htz-a11y-dropdown~dropdown:hide</a></li><li><a href="module-htz-a11y-dropdown.html#~event:dropdown:show">htz-a11y-dropdown~dropdown:show</a></li>
 				</ul>
 			</li>
 			
@@ -70,13 +70,14 @@
 		<div id="main">
 			
 
-	<h1 class="page-title">Module: htz-a11y-dropdown</h1>
+	<h1 class="page-title">Modules</h1>
 <section>
 
 <header>
     
+        <h2>
         
-            
+        </h2>
         
     
 </header>
@@ -86,225 +87,8 @@
     <div class="container-overview">
     
         
-            <div class="description"><p>HTZ ACCESSIBLE DROPDOWN MENU</p>
-<p>A simple dropdown menu with accessibilty in mind</p></div>
-        
 
         
-            
-<hr>
-<dt>
-    <h4 class="name" id="module:htz-a11y-dropdown"><span class="type-signature"></span>(require("htz-a11y-dropdown"))(wrapper [, expandOnHover] [, toggleElemClass] [, menuElemClass])</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Initialize an accessible dropdown menu</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-        <h5>Parameters:</h5>
-        
-
-<table class="params table table-striped">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-        <th>Argument</th>
-        
-
-        
-        <th>Default</th>
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>wrapper</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">HTMLElement</span>
-
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                </td>
-            
-
-            <td class="description last"><p>The element containing the toggle element
-   and the dropdown menu itself.</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>expandOnHover</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Boolean</span>
-
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    false
-                
-                </td>
-            
-
-            <td class="description last"><p>Indicates if dropdown expands when
-   toggle element is hovered or focused. When false, the dropdown will expand
-   when the toggle element is clicked.</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>toggleElemClass</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">String</span>
-
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    'js-dropdown-toggle'
-                
-                </td>
-            
-
-            <td class="description last"><p>The class used for
-   identifying the toggle element (usually an <code>a</code> or <code>button</code>).</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>menuElemClass</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">String</span>
-
-
-
-            
-            </td>
-
-            
-                <td class="attributes">
-                
-                    &lt;optional><br>
-                
-
-                
-
-                
-                </td>
-            
-
-            
-                <td class="default">
-                
-                    'js-dropdown-menu'
-                
-                </td>
-            
-
-            <td class="description last"><p>The class used for
-   identifying the dropdown menu element (Usually a <code>ul</code>).</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-    
-
-    
 <dl class="details">
     
 
@@ -344,47 +128,6 @@
 </dl>
 
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <h5>Returns:</h5>
-    
-            
-<div class="param-desc">
-    <ul>
-<li>Public API</li>
-</ul>
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type"><a href="module-htz-a11y-dropdown.html#~API">module:htz-a11y-dropdown~API</a></span>
-
-
-
-    </dd>
-</dl>
-
-
-        
-
-    
-</dd>
-
         
     
     </div>
@@ -403,426 +146,6 @@
 
     
 
-    
-        <h3 class="subsection-title">Type Definitions</h3>
-
-        <dl>
-                
-<hr>
-<dt class="name" id="~API">
-    <h4>API</h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>A public API for programmatically controlling the dropdown instance.</p>
-    </div>
-    
-
-    
-        <h5>Type:</h5>
-        <ul>
-            <li>
-                
-<span class="param-type">Object</span>
-
-
-
-            </li>
-        </ul>
-    
-
-    
-<dl class="details">
-    
-
-    <h5 class="subsection-title">Properties:</h5>
-
-    <dl>
-
-<table class="props table table-striped">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>showDropdown</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type"><a href="module-htz-a11y-dropdown.html#~showDropdown">module:htz-a11y-dropdown~showDropdown</a></span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Reveal dropdown.</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>hideDropdown</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type"><a href="module-htz-a11y-dropdown.html#~hideDropdown">module:htz-a11y-dropdown~hideDropdown</a></span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Hide dropdown.</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>toggleDropdown</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type"><a href="module-htz-a11y-dropdown.html#~toggleDropdown">module:htz-a11y-dropdown~toggleDropdown</a></span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Toggle dropdown visibility.</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-</dl>
-
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-</dd>
-
-            
-                
-<hr>
-<dt>
-    <h4 class="name" id="~hideDropdown"><span class="type-signature"></span>hideDropdown()</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Hide the dropdown menu</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-    <h5>Fires:</h5>
-    <ul>
-        <li><a href="module-htz-a11y-dropdown.html#~event:hideEvent">module:htz-a11y-dropdown~event:hideEvent</a></li>
-    </ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dd>
-
-            
-                
-<hr>
-<dt>
-    <h4 class="name" id="~showDropdown"><span class="type-signature"></span>showDropdown()</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Show the dropdown menu</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-    <h5>Fires:</h5>
-    <ul>
-        <li><a href="module-htz-a11y-dropdown.html#~event:showEvent">module:htz-a11y-dropdown~event:showEvent</a></li>
-    </ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dd>
-
-            
-                
-<hr>
-<dt>
-    <h4 class="name" id="~toggleDropdown"><span class="type-signature"></span>toggleDropdown()</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Toggle dropdown menu visibility</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dd>
-
-            </dl>
     
 
     
@@ -832,7 +155,7 @@
             
 <hr>
 <dt>
-    <h4 class="name" id="~event:hideEvent">hideEvent</h4>
+    <h4 class="name" id="~event:dropdown:hide">dropdown:hide</h4>
     
     
 </dt>
@@ -1042,7 +365,7 @@
             
 <hr>
 <dt>
-    <h4 class="name" id="~event:showEvent">showEvent</h4>
+    <h4 class="name" id="~event:dropdown:show">dropdown:show</h4>
     
     
 </dt>
@@ -1292,7 +615,7 @@
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0</a>
 	
-		on June 13th 2016, 4:04:32 pm
+		on June 13th 2016, 4:48:28 pm
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>

@@ -44,7 +44,7 @@ export default function dropdown(
   /**
    * Show the dropdown menu
    * @callback module:htz-a11y-dropdown~showDropdown
-   * @fires module:htz-a11y-dropdown~showEvent
+   * @fires module:htz-a11y-dropdown~dropdown:show
    *
    * @access public
    */
@@ -55,7 +55,7 @@ export default function dropdown(
 
       /**
        * Fired whenever a dropdown is being shown.
-       * @event module:htz-a11y-dropdown~showEvent
+       * @event module:htz-a11y-dropdown~dropdown:show
        * @type {Object}
        * @prop {Object} details
        * @prop {HTMLElement} details.toggleElem - The toggle elem
@@ -71,7 +71,7 @@ export default function dropdown(
   /**
    * Hide the dropdown menu
    * @callback module:htz-a11y-dropdown~hideDropdown
-   * @fires module:htz-a11y-dropdown~hideEvent
+   * @fires module:htz-a11y-dropdown~dropdown:hide
    *
    * @access public
    */
@@ -82,7 +82,7 @@ export default function dropdown(
 
       /**
        * Fired whenever a dropdown is being hidden.
-       * @event module:htz-a11y-dropdown~hideEvent
+       * @event module:htz-a11y-dropdown~dropdown:hide
        * @type {Object}
        * @prop {Object} details
        * @prop {HTMLElement} details.toggleElem - The toggle elem
