@@ -16,20 +16,19 @@ const bar = dropdown(foo[, expandOnHover, toggleElemClass, menuElemClass]);
 ```
 
 ### Params
--  **wrapper (HTMLElement):** The element containing the toggle element
-   and the dropdown menu itself.
-- **expandOnHover (Boolean):** default: false. Indicates if dropdown expands when
-  toggle element is hovered or focused. When false, the dropdown will expand
-  when the toggle element is clicked.
-- **toggleElemClass (String):** default: 'js-dropdown-toggle' - The class used for
-  identifying the toggle element (usually an `a` or `button`).
-- **menuElemClass (String):** default: 'js-dropdown-menu' - The class used for
-  identifying the dropdown menu element (Usually a `ul`).
+|Param|Type|Default|Description|
+|---|---|---|---|
+|wrapper|HTMLElement| - |The element containing the toggle element and the dropdown menu itself|
+|expandOnHover|Boolean|false|Indicates if dropdown expands when toggle element is hovered or focused. When false, the dropdown will expand when the toggle element is clicked|
+|toggleElemClass|String|'js-dropdown-toggle'|The class used for identifying the toggle element (usually an `a` or `button`)|
+|menuElemClass|String|'js-dropdown-menu'|The class used for identifying the dropdown menu element (Usually a `ul`)|
 
 ### API
-- showDropdown - Reveal dropdown.
-- hideDropdown - Hide dropdown.
-- toggleDropdown - Toggle dropdown visibility.
+|Function|Description|
+|---|---|
+|showDropdown()|Reveal dropdown|
+|hideDropdown()|Hide dropdown|
+|toggleDropdown|Toggle dropdown visibility|
 
 
 ### EVENTS
