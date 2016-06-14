@@ -1,6 +1,6 @@
 {
   "name": "htz-a11y-dropdown",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An accessible drop-down menu",
   "repository": {
     "type": "git",
@@ -47,7 +47,8 @@
       "lib": "src"
     },
     "dependencies": {
-      "htz-dispatch-event": "github:haaretz/htz-dispatch-event@^1.0.0"
+      "htz-dispatch-event": "github:haaretz/htz-dispatch-event@^1.0.0",
+      "htz-get-focusables": "github:haaretz/htz-get-focusables@^1.0.0"
     },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12"

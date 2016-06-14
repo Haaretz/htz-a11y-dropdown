@@ -8,6 +8,7 @@
  */
 
 import dispatchEvent from 'htz-dispatch-event';
+import getFocusables from 'htz-get-focusables';
 
 /**
  * Initialize an accessible dropdown menu
@@ -51,6 +52,10 @@ export default function dropdown(
   function showDropdown() {
     if (dropdownIsHidden) {
       menuElem.setAttribute('aria-hidden', false);
+
+      const focusables = getFocusables(menuElem);
+      focusables[0].focus();
+
       dropdownIsHidden = false;
 
       /**
@@ -77,7 +82,10 @@ export default function dropdown(
    */
   function hideDropdown() {
     if (!dropdownIsHidden) {
+      toggleElem.focus();
+
       menuElem.setAttribute('aria-hidden', true);
+
       dropdownIsHidden = true;
 
       /**
@@ -154,7 +162,6 @@ export default function dropdown(
     'keydown',
     (e) => {
       if (e.keyCode === 27) {
-        toggleElem.focus();
         hideDropdown();
       }
     },
