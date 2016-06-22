@@ -54,7 +54,7 @@ export default function dropdown(
       menuElem.setAttribute('aria-hidden', false);
 
       const focusables = getFocusables(menuElem);
-      focusables[0].focus();
+      if (focusables.length) focusables[0].focus();
 
       dropdownIsHidden = false;
 
