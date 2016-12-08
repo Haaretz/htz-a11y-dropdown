@@ -47,7 +47,7 @@
       "lib": "src"
     },
     "dependencies": {
-      "htz-dispatch-event": "github:haaretz/htz-dispatch-event@^1.0.0",
+      "htz-dispatch-event": "github:haaretz/htz-dispatch-event@^1.0.3",
       "htz-get-focusables": "github:haaretz/htz-get-focusables@^1.0.0"
     },
     "devDependencies": {
